@@ -97,15 +97,25 @@
   .FAQ .FAQ-Block_last {
     max-width: 100%;
   }
+  .FAQ .FAQ-Block_last .FAQ-Title {
+    max-width: 70%;
+    margin: auto;
+  }
   .FAQ .FAQ-Block_last .Slider-wrapper {
+    margin-top: 1em;
     max-width: 100%;
   }
-  .FAQ .FAQ-Block_last .Slider-wrapper img {
-    width: 150px;
-    height: 150px;
+  .FAQ .FAQ-Block_last .slick-slide {
+    max-width: 202px;
+    height: 202px;
+    margin: 0 1em;
   }
   .FAQ .FAQ-Block_last .Slider-buttons {
     max-width: 100%;
+  }
+  .FAQ .FAQ-Block_last .Slider {
+    width: 852px;
+    margin: auto;
   }
   .Layout .Container .Header {
     justify-items: flex-start;
@@ -206,17 +216,23 @@
   .About .inputs-wrapper {
     margin: 0 10px;
   }
+  .FAQ .FAQ-Block_last .Slider {
+    width: 652px;
+    margin: auto;
+  }
   .FAQ .FAQ-Block_last h1 {
     margin-top: 20px;
     line-height: 60px;
     margin-bottom: 20px;
     font-size: 42px;
   }
-  .FAQ .FAQ-Block_last .Slider-wrapper img:first-child {
-    display: none;
-  }
-  .FAQ .FAQ-Block_last .Slider-wrapper img:last-child {
-    display: none;
+}
+@media screen and (max-width: 650px) {
+  .FAQ .FAQ-Block_last h1 {
+    margin-top: 20px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    font-size: 42px;
   }
 }
 @media screen and (max-width: 525px) {
@@ -258,11 +274,5 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-  }
-  .FAQ .Slider-wrapper img:nth-child(2) {
-    display: none;
-  }
-  .FAQ .Slider-wrapper img:ntn-child {
-    display: none;
   }
 }/*# sourceMappingURL=Layout.css.map */

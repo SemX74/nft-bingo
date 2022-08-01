@@ -1,6 +1,6 @@
 import React from 'react';
 import "./FAQ.css"
-import { Slider } from '../../Components/Slider/Slider';
+import { Sliderr } from '../../Components/Slider/Slider';
 
 const FAQ = () => {
     return (
@@ -25,7 +25,7 @@ const FAQ = () => {
             </div>
             <div className="FAQ-Block_last">
               <h1 className="FAQ-Title">What are <span>NFT</span> tickets and how many are there?</h1>
-              <Slider />
+              <Sliderr />
             </div>
         </div>
       );
